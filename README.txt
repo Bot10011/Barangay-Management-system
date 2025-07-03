@@ -1,22 +1,5 @@
 # 🏘️ Barangay Management System (BMS)
 
-[![PHP](https://img.shields.io/badge/PHP-%3E=7.4-blue?logo=php)](https://www.php.net/) [![MySQL](https://img.shields.io/badge/MySQL-%3E=5.7-blue?logo=mysql)](https://www.mysql.com/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-> **A complete digital solution for barangay record management, document issuance, and resident self-service.**
-
----
-
-## 🚀 Quick Start
-
-1. **Clone or Download** this repository.
-2. **Import the Database**: Use the SQL file in `/db/` to set up your MySQL database.
-3. **Configure** `config.php` with your database credentials.
-4. **Run on Localhost or Server**:
-   - Staff/Admin: `http://localhost/login.php`
-   - Kiosk: `http://localhost/scanQRCode.php`
-
----
-
 ## ✨ Features
 
 ### 🛡️ Main System (Staff/Admin)
@@ -62,43 +45,4 @@
 - **Session Management**: Secure sessions
 
 ---
-
-## 📁 Project Structure
-
-```text
-├── Admin/         # Admin & staff modules
-├── Staff/         # Staff modules
-├── db/            # Database SQL files
-├── images-*/      # Images (users, certificates, etc.)
-├── plugins/       # JS plugins (e.g., QR scanner)
-├── Documents/     # Document templates/exports
-├── login.php      # Staff/Admin login
-├── scanQRCode.php # Kiosk entry point
-├── config.php     # DB config
-└── ...
-```
-
----
-
-## 🛠️ Developer Notes
-- **Tech Stack**: PHP, MySQL, JavaScript, HTML/CSS
-- **Dependencies**: See `/plugins/` for JS libraries (e.g., Instascan for QR)
-- **Customizable**: Edit certificate templates and UI in `/Admin/` and `/Staff/`
-
----
-
-## 🙋 FAQ
-
-**Q: Who can access the main system?**  
-A: Only authorized staff and admins via login.
-
-**Q: Can residents access their info?**  
-A: Yes, via the Kiosk system using QR code and PIN.
-
-**Q: What documents can be issued?**  
-A: Barangay Clearance, ID, Indigency, Residency, Construction, Plate, Ownership, Jobseeker, Non-Residency, and more.
-
-
----
-
 > **Empowering barangays with digital solutions!** 
